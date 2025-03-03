@@ -272,17 +272,29 @@ footer a {
     margin: 0;
     height: 2em;
   }
-  header {
-    display: inline-block;
-    width: 100%;
+}
+header {
+  display: inline-block;
+  width: 100%;
 
-    text-align: start;
-  }
-  header p,
-  header div {
-    display: inline;
-  }
-  table {
-    width: 75%;
-  }
+  text-align: start;
+}
+header p,
+header div {
+  display: inline;
+  vertical-align: top;
+}
+table {
+  width: 75%;
+}
+main article section {
+  display: inline-block;
+  width: 48%;
+  vertical-align: top;
+}
+
+iframe {
+  display: inline-block;
+  width: 48%;
+  vertical-align: top;
 }
