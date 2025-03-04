@@ -259,6 +259,16 @@ footer a {
     height: 180px;
     font-size: 1.5em;
   }
+  #bordo1 {
+    border: solid 4px #9e1f6d;
+    display: inline-block;
+    height: 64px;
+  }
+  #bordo2 {
+    border: solid 4px #039ec4;
+    display: inline-block;
+    height: 58px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -297,4 +307,23 @@ iframe {
   display: inline-block;
   width: 48%;
   vertical-align: top;
+}
+header p {
+  font-size: 2em;
+  margin: 1em;
+
+  text-align: center;
+}
+header ul {
+  font-size: 2em;
+  margin: 1em;
+  text-align: center;
+}
+#navCorrelati {
+  display: inline-block;
+}
+aside div {
+  display: inline-block;
+  width: 32%;
+  margin-left: 0.5em;
 }
